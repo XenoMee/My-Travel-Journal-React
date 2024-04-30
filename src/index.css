@@ -86,3 +86,14 @@ body {
 a {
   color: var(--clr-secondary-400);
 }
+
+/* Utility classes */
+.flex-group {
+  display: flex;
+  align-items: center;
+}
+
+.grid-flow {
+  display: grid;
+  gap: 1rem;
+}
