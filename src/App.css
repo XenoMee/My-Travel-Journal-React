@@ -4,6 +4,26 @@
   font-weight: var(--fw-bold);
 }
 
+.card-title {
+  font-size: var(--fs-500);
+}
+
+.location-icon {
+  color: var(--clr-accent-300);
+}
+
+.card-country {
+  font-size: var(--fs-200);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.card-date {
+  display: inline-block;
+  font-weight: var(--fw-bold);
+  margin-bottom: 0.5rem;
+}
+
 /* Layout */
 .header-content {
   justify-content: center;
@@ -14,6 +34,19 @@
   font-size: var(--fs-400);
 }
 
+.travel-card {
+  --content-spacing: 1rem 1.5rem;
+  padding: var(--content-spacing);
+}
+
 .card-image {
   order: -1;
+  border-radius: 1rem;
+}
+
+.card-location {
+  justify-content: space-between;
+}
+.card-location > .flex-group {
+  gap: 0.5rem;
 }
