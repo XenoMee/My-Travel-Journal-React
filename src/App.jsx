@@ -12,7 +12,7 @@ const App = () => {
   return (
     <section className='grid-flow' data-spacing='medium'>
       <Header />
-      {travelCards}
+      <div className='main-content'>{travelCards}</div>
     </section>
   );
 };
