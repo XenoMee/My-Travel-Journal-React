@@ -87,6 +87,12 @@ a {
   color: var(--clr-secondary-400);
 }
 
+header {
+  color: var(--clr-primary-100);
+  background-color: var(--clr-accent-300);
+  padding-block: 1rem;
+}
+
 /* Utility classes */
 .flex-group {
   display: flex;
