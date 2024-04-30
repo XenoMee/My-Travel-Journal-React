@@ -12,7 +12,7 @@ const App = () => {
   return (
     <section>
       <Header />
-      {/* {travelCards} */}
+      {travelCards}
     </section>
   );
 };
