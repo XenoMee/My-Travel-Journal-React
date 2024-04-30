@@ -10,7 +10,7 @@ const App = () => {
   ));
 
   return (
-    <section>
+    <section className='grid-flow' data-spacing='medium'>
       <Header />
       {travelCards}
     </section>
