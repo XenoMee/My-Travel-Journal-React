@@ -34,6 +34,11 @@
   font-size: var(--fs-400);
 }
 
+.main-content {
+  max-width: 700px;
+  margin-inline: auto;
+}
+
 .travel-card {
   --content-spacing: 1rem 1.5rem;
   padding: var(--content-spacing);
