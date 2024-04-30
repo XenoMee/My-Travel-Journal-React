@@ -57,7 +57,7 @@ export default [
     endDate: '17 Aug 2023',
     description:
       'The Blue Eye is a water spring and initial water source of the Bistricë, a 25 km long river which ends in the Ionian Seat just south of Saranda. The source is a natural phenomenon with a depth of at least 50 meters, the deepest any diver has been able to go, so the actual depth is even unknown.',
-    imageUrl: '../images/blue_eye_ksamil.jpg',
+    imageUrl: '../images/blue_eye_ksamil.png',
   },
   {
     title: 'Colosseum',
