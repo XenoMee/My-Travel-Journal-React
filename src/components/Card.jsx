@@ -7,7 +7,7 @@ const Card = (props) => (
         <h2 className='card-title'>{props.travel.title}</h2>
         <div className='card-location'>
           <div className='flex-group'>
-            <i class='fa-solid fa-location-dot'></i>
+            <i className='fa-solid fa-location-dot'></i>
             <p className='card-country'>{props.travel.location}</p>
           </div>
           <a href={`${props.travel.googleMapsUrl}`}>View on Google Maps</a>
