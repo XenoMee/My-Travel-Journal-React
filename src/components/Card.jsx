@@ -2,12 +2,12 @@ import React from 'react';
 
 const Card = (props) => (
   <div className='travel-card grid-flow'>
-    <div className='card-content grid-flow'>
+    <div className='card-content grid-flow' data-spacing='medium'>
       <div className='card-header'>
         <h2 className='card-title'>{props.travel.title}</h2>
-        <div className='card-location'>
+        <div className='card-location flex-group'>
           <div className='flex-group'>
-            <i className='fa-solid fa-location-dot'></i>
+            <i className='location-icon fa-solid fa-location-dot'></i>
             <p className='card-country'>{props.travel.location}</p>
           </div>
           <a href={`${props.travel.googleMapsUrl}`}>View on Google Maps</a>
