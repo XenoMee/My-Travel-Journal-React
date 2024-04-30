@@ -45,9 +45,9 @@
   padding: var(--content-spacing);
 }
 
-/* .card-body {
+.card-body {
   margin-block-start: auto;
-} */
+}
 
 .card-image {
   order: -1;
