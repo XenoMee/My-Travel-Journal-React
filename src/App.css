@@ -46,6 +46,7 @@
 
 .card-location {
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .card-location > .flex-group {
   gap: 0.5rem;
