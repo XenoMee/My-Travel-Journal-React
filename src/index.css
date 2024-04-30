@@ -83,6 +83,6 @@ body {
   min-height: 100svh;
 }
 
-/* a {
+a {
   color: var(--clr-secondary-400);
-} */
+}
