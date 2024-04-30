@@ -115,8 +115,8 @@ header {
     grid-template-columns: 0.3fr 0.7fr;
   }
 
-  /* .card-image {
+  .card-image {
     object-fit: cover;
-    align-self: center;
-  } */
+    align-self: stretch;
+  }
 }
