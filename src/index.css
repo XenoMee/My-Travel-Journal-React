@@ -1,3 +1,11 @@
+:root {
+  /* Colors */
+  --clr-primary-800: hsl(250, 18%, 19%);
+  --clr-primary-100: hsl(0, 0%, 100%);
+  --clr-secondary-400: hsl(254, 6%, 58%);
+  --clr-accent-300: hsl(0, 89%, 66%);
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
