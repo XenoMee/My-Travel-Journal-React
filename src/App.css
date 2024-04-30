@@ -1,0 +1,19 @@
+/* Typography */
+.header-title {
+  font-size: var(--fs-400);
+  font-weight: var(--fw-bold);
+}
+
+/* Layout */
+.header-content {
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.europe-earth-icon {
+  font-size: var(--fs-400);
+}
+
+/* .card-image {
+  order: -1;
+} */
