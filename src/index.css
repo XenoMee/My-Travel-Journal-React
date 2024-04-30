@@ -6,7 +6,12 @@
   --clr-accent-300: hsl(0, 89%, 66%);
 
   /* Font Family */
-  --ff-base: font-family: "Inter", sans-serif;
+  --ff-base: 'Inter', sans-serif;
+
+  /* Font Weight */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
 }
 
 /*
