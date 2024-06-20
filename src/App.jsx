@@ -6,7 +6,10 @@ import './App.css';
 
 const App = () => {
   const travelCards = Destinations.map((destination) => (
-    <Card {...destination} />
+    <Card 
+      key = {destination.id}
+      {...destination} 
+    />
   ));
 
   return (
