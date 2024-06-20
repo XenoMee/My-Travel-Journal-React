@@ -1,5 +1,6 @@
 export default [
   {
+    id: "1",
     title: "St. Stephen's Cathedral",
     location: 'Vienna',
     googleMapsUrl: 'https://maps.app.goo.gl/sCMhNKufAWY4Bqgz7',
@@ -10,6 +11,7 @@ export default [
     imageUrl: '../images/st_stephens_cathedral.jpg',
   },
   {
+    id: "2",
     title: 'Eiffle Tower',
     location: 'France',
     googleMapsUrl: 'https://maps.app.goo.gl/S8QU5FmpJ3ip199w5',
@@ -20,6 +22,7 @@ export default [
     imageUrl: '../images/eiffel_tower.jpg',
   },
   {
+    id: "3",
     title: 'Duomo di Milano',
     location: 'Italy',
     googleMapsUrl: 'https://maps.app.goo.gl/a7F1vwY4pggTd3qn6',
@@ -30,6 +33,7 @@ export default [
     imageUrl: '../images/duomo_di_milano.jpg',
   },
   {
+    id: "4",
     title: 'Big Ben',
     location: 'United Kingdom',
     googleMapsUrl: 'https://maps.app.goo.gl/ZKYUjXihyUC7qMRt6',
@@ -40,6 +44,7 @@ export default [
     imageUrl: '../images/big_ben.jpg',
   },
   {
+    id: "5",
     title: 'Acropolis',
     location: 'Greece',
     googleMapsUrl: 'https://maps.app.goo.gl/QaK7HtGmyhwsk7XN7',
@@ -49,7 +54,7 @@ export default [
       'The Acropolis of Athens and its monuments are universal symbols of the classical spirit and civilization and form the greatest architectural and artistic complex bequeathed by Greek Antiquity to the world.',
     imageUrl: '../images/acropolis.jpg',
   },
-  {
+  { id: "6",
     title: 'Blue Eye',
     location: 'Albania',
     googleMapsUrl: 'https://maps.app.goo.gl/J52eGwHffma5ukt86',
@@ -59,7 +64,7 @@ export default [
       'The Blue Eye is a water spring and initial water source of the Bistricë, a 25 km long river which ends in the Ionian Seat just south of Saranda. The source is a natural phenomenon with a depth of at least 50 meters, the deepest any diver has been able to go, so the actual depth is even unknown.',
     imageUrl: '../images/blue_eye_ksamil.png',
   },
-  {
+  { id: "7",
     title: 'Colosseum',
     location: 'Italy',
     googleMapsUrl: 'https://maps.app.goo.gl/8URP8Ga4aJvLxfiw8',
@@ -69,7 +74,7 @@ export default [
       'The Colosseum, also named the Flavian Amphitheater, is a large amphitheater in Rome. It was built during the reign of the Flavian emperors as a gift to the Roman people.',
     imageUrl: '../images/colosseum.jpg',
   },
-  {
+  { id: "8",
     title: 'Promenade des Anglais',
     location: 'France',
     googleMapsUrl: 'https://maps.app.goo.gl/mjDNgsVGok4w875k9',
