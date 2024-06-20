@@ -4,27 +4,27 @@ const Card = (props) => (
   <div className='travel-card grid-flow'>
     <div className='card-content grid-flow' data-spacing='medium'>
       <div className='card-header'>
-        <h2 className='card-title'>{props.travel.title}</h2>
+        <h2 className='card-title'>{props.title}</h2>
         <div className='card-location flex-group'>
           <div className='flex-group'>
             <i className='location-icon fa-solid fa-location-dot'></i>
-            <p className='card-country'>{props.travel.location}</p>
+            <p className='card-country'>{props.location}</p>
           </div>
-          <a href={`${props.travel.googleMapsUrl}`}>View on Google Maps</a>
+          <a href={`${props.googleMapsUrl}`}>View on Google Maps</a>
         </div>
       </div>
 
       <div className='card-body'>
         <span className='card-date'>
-          {props.travel.startDate} - {props.travel.endDate}
+          {props.startDate} - {props.endDate}
         </span>
-        <p className='card-description'>{props.travel.description}</p>
+        <p className='card-description'>{props.description}</p>
       </div>
     </div>
 
     <img
-      src={`${props.travel.imageUrl}`}
-      alt={`${props.travel.title}`}
+      src={`${props.imageUrl}`}
+      alt={`${props.title}`}
       className='card-image'
     />
   </div>
